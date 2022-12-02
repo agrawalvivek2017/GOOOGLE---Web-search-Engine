@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Gooogle</title>
+</head>
+<body>
+<main>
+    <br><br>
+    <div id="app" class="row">
+        <div class="col-sm-1 align-right">
+            <img src="images/logo.png" height="150px" width="150px" class="img-thumbnail" onclick="loadHomePage()" alt="Logo">
+        </div>
+        <div class="col-sm-8">
+            <input class="form-control" id="fixedUserSearch" type="text" aria-label="readonly input example" readonly>
+        </div>
+    </div>
+    <br><br>
+    <div class="row offset-sm-1 col-sm-8" id="search-data">
+
+    </div>
+    <br><br>
+    <div class="row">
+        <nav aria-label="Search page results" class=col-sm-4">
+            <ul class="pagination justify-content-center " id="page-numbers">
+                <li class="page-item page-link" id="page-prev">Previous</li>
+                <li class="page-item page-link" id="page-next">Next</li>
+            </ul>
+        </nav>
+    </div>
+</main>
+<script src="script/page2.js"></script>
+</body>
+</html>
