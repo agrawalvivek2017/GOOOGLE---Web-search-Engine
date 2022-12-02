@@ -5,7 +5,7 @@ This project is focused on building and implementing a web search engine with an
 Team Website URL : http://vxa200020.epizy.com/ 
 
 
-Github Repository: https://github.com/AbhishekDua7/WebSearchEngine
+Github Repository: https://github.com/agrawalvivek2017/GOOOGLE---Web-search-Engine
 
 
 Prelimary Project Report: https://docs.google.com/document/d/1RvcArJRO-8xa4kF4EpGWex4whU0QLqCL-qDSC1tqAAM
